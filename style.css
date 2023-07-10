@@ -61,7 +61,7 @@
     align-items: center;
     width: 70%;
     margin: auto;
-  padding-left: -px;
+  
     /* position: absolute; */
     gap: 30px;
    
@@ -96,3 +96,39 @@
 .down-text:hover{
     color: rgb(228, 10, 10);
 }
+
+
+.two{
+    box-sizing: border-box;
+}
+/* banner  Same Day Delivery. Click & Collect. star */
+
+.banner-Same-Day{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 150px;
+    background-color:rgba(240, 230, 210, 0.849);
+    padding: 40px;
+
+}
+.banner-Same-Day h3{
+    margin-top: 20px;
+    text-align: left;
+}
+/* .banner-Same-Day img{
+    margin-left: 40px;
+    
+} */
+.banner-Same-Day-same-pic{
+    padding-left: 30%;
+    margin: 0;
+}
+
+
+    .banner-Same-Day-pic-3{
+        padding-left: 25px;
+    }
+
+    /* header is complete  */
