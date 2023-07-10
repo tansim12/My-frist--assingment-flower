@@ -108,7 +108,7 @@
     width: 70%;
     margin: auto;
     justify-content: space-between;
-    margin-top: 150px;
+    margin-top: 150px ;
     background-color:rgba(240, 230, 210, 0.849);
     padding: 40px;
 
@@ -130,5 +130,43 @@
     .banner-Same-Day-pic-3{
         padding-left: 25px;
     }
+    header{
+        margin: 0 0 100px 0;
+    }
 
     /* header is complete  */
+
+
+/* main body start  */
+.main-one{
+   
+    display: flex;
+    justify-content: space-around;
+    /* position: absolute; */
+    text-align: center;
+    height: 55vh;
+    /* margin-top: 130px; */
+    background-color:  rgba(236, 120, 159, 0.281);
+    /* gap: 10px; */
+    
+    /* width: 100%; */
+    margin: auto;
+    
+}
+.main-one-1st-div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.main-one-h1{
+    font-size: 40px;
+}
+ .main-one-p{
+    width: 500px;
+    /* margin: auto; */
+    padding: 20px 0 0 0 ;
+} 
+
+/* main half complete  */
