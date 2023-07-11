@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 .header-frist-banner{
     display: flex;
@@ -148,9 +149,10 @@
     /* margin-top: 130px; */
     background-color:  rgba(236, 120, 159, 0.281);
     /* gap: 10px; */
-    
+    box-sizing: border-box;
     /* width: 100%; */
     margin: auto;
+    width: 100%;
     
 }
 .main-one-1st-div{
@@ -159,6 +161,13 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+.main-one-2nd-div{
+    object-fit: cover;
+    margin-top: 50px;
+    padding: 0 200px 0 0 ;
+    overflow: none;
+
 }
 .main-one-h1{
     font-size: 40px;
@@ -170,3 +179,38 @@
 } 
 
 /* main half complete  */
+
+/* main section 2 start  */
+
+.main-instra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.main-two{
+    width: 90%;
+    margin: auto;
+    
+    
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+}
+.main-instra div{
+    box-shadow: 1px 0px 20px 10px rgb(136, 133, 133);
+}
+.main-text{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px 200px 100px auto;
+}
+.main-text-h1{
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+/* instea complete  */
