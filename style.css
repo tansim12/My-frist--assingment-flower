@@ -58,38 +58,40 @@
  /* 3 pic into one div  */
 .Our-Featured-Flowers-3pic{
     display: flex;
-    justify-content: space-between;
+    height: 80vh;
+    justify-content: center;
     align-items: center;
-    width: 70%;
+    gap: 50px;
     margin: auto;
   
-    /* position: absolute; */
-    gap: 30px;
-   
-    /* background-color: red; */
+
 
 }
 .image-three{
-     clip-path: circle(63.1% at 51% 63%);
-    
+    width: 260px;
+    margin: auto;
+    height: 375px;
+    object-fit:contain;
+    clip-path: circle(63.1% at 51% 63%);
+    /* gap: 40px; */
 }
 .pic-1{
-    padding: 70px 20px 0 0px;
+   
    background-color: rgba(238, 214, 247, 0.767);
 }
 
 .pic-2{
     background-color: rgba(175, 238, 238, 0.829);
-  padding-top: 125px;
-    /* margin: px 0 0 0 ; */
+  
+   
 }
 .pic-3{
     background-color: rgba(214, 158, 231, 0.932);
-    padding: 15px 20px  10px 10px;
+    
     
 }
 .down-text{
-    margin: 15px 0 0 28%;
+    margin: 15px 0 0 10%;
     text-decoration: underline;
    
 }
@@ -102,7 +104,7 @@
 .two{
     box-sizing: border-box;
 }
-/* banner  Same Day Delivery. Click & Collect. star */
+/* banner  Same Day Delivery. Click & Collect. start */
 
 .banner-Same-Day{
     display: flex;
@@ -168,7 +170,7 @@ span{
 .main-one-2nd-div img{
     /* object-fit: cover; */
     width: 290px;
-    /* margin-top: 50px; */
+    margin-top: 20px;
     padding: 0 200px 0 0 ;
     /* overflow: none; */
 
