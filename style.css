@@ -145,7 +145,7 @@
     justify-content: space-around;
     /* position: absolute; */
     text-align: center;
-    height: 55vh;
+    height: 65vh;
     /* margin-top: 130px; */
     background-color:  rgba(236, 120, 159, 0.281);
     /* gap: 10px; */
@@ -165,11 +165,12 @@ span{
     justify-content: center;
     align-items: center;
 }
-.main-one-2nd-div{
-    object-fit: cover;
-    margin-top: 50px;
+.main-one-2nd-div img{
+    /* object-fit: cover; */
+    width: 290px;
+    /* margin-top: 50px; */
     padding: 0 200px 0 0 ;
-    overflow: none;
+    /* overflow: none; */
 
 }
 .main-one-h1{
