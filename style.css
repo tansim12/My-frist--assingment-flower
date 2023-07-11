@@ -3,6 +3,30 @@
     padding: 0;
     
 }
+nav{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 20px;
+}
+.navbar li {
+    list-style: none;
+    padding: 30px;
+}
+.navbar{
+    display: flex;
+}
+.navbar li:hover{
+    background-color:  gray;
+    cursor: pointer;
+    color:rgb(9, 255, 0) ;
+    font-weight: bold;
+    font-size: 30px;
+}
+
 .header-frist-banner{
     display: flex;
     justify-content: space-around;
@@ -41,6 +65,7 @@
     box-shadow: 0 0 5px  rgb(238, 70, 126), 0 0 25px  rgb(238, 70, 126) ;
 }
 .btn:hover{
+    cursor: pointer;
     box-shadow: 0 0 5px  rgb(238, 70, 126),0 0 25px  rgb(238, 70, 126),0 0 50px  rgb(238, 70, 126),0 0 100px  rgb(238, 70, 126),0 0 20px  rgb(238, 70, 126) ;
 
 }
@@ -98,6 +123,7 @@
 
 .down-text:hover{
     color: rgb(228, 10, 10);
+    cursor: pointer;
 }
 
 
