@@ -25,6 +25,8 @@ nav{
     color:rgb(9, 255, 0) ;
     font-weight: bold;
     font-size: 30px;
+    transition: 0.2s;
+    border-radius: 50px;
 }
 
 .header-frist-banner{
